@@ -17,7 +17,18 @@
       .footer{
         margin-right: 20px;
         color: green;
-        background-color: greenyellow;
+        text-transform: capitalize;
+        text-decoration: none;
+      }
+      .pk{
+        margin-right: 20px;
+        color: red;
+        text-transform: capitalize;
+        text-decoration: none;
+  
+      }
+      #copyright{
+        color: rgb(180, 7, 114);
       }
     </style>
   </head>
@@ -31,14 +42,14 @@
       </header>
       <br>
       <nav>
-       <a href="home.html" target="priyanka">Home</a>
-        <a href="techstack.html" target="priyanka">Technolgoy stack</a>
-        <a href="projectdetails.html" target="priyanka">Project</a>
-        <a href="education.html" target="priyanka">Education</a>
-        <a href="aboutMe.html" target="priyanka">About Me</a>
+       <span class="pk"><a href="home.html" target="priyanka">Home</a></span>
+        <span class="pk"> <a href="techstack.html" target="priyanka">Technolgoy stack</a></span>
+        <span class="pk"><a href="projectdetails.html" target="priyanka">Project</a></span>
+        <span class="pk"><a href="education.html" target="priyanka">Education</a></span>
+        <span  class="pk"><a href="aboutMe.html" target="priyanka">About Me</a></span>
       </nav>
       <br>
-      <iframe width="650px" height="500px"   src="home.html" name="priyanka" >
+      <iframe width="650px" height="350px"   src="home.html" name="priyanka" >
         </iframe>
        <footer>
        <span> <strong>Follow me</strong></span> 
@@ -48,7 +59,7 @@
             <span class="footer"> <i class="fa fa-facebook-official" aria-hidden="true"></i></span>
 
         </footer>
-      <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
+      <p id="copyright"> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
 
       </body>
       </html>

@@ -11,19 +11,31 @@
       th,
       td
        {
-        border: 2px solid red;
+        border: 2px solid black;
         border-collapse: collapse;
       }
-      .ts{
-        border: 2px solid blue;
-        background-color: brown;
-        font-size: small;
-        font-style: oblique;
+      h3{
+        border: 2px solid red;
+        background-color: aqua;
+            text-align: center;
+            font-family:'Courier New', Courier, monospace;
+            padding: 5px;
+        
+      }
+      .header{
+        color: orangered;
+        background-color: azure;
+        margin-right: 2px;
+      }
+      .tbody{
+        color: yellow;
+        background-color: palevioletred;
+        padding: 5px;
       }
     </style>
-    <h2><span class="ts"> Technology stack</span></h2>
+    <h3>Technology stack</h3>
     <table>
-      <thead>
+      <thead class="header">
         <tr>
           <th>Sr.no</th>
           <th>Technolgoy Stack</th>
@@ -31,7 +43,7 @@
         </tr>
       </thead>
     
-    <tbody>
+    <tbody class="tbody">
       <tr>
         <td>1</td>
         <td>Html</td>

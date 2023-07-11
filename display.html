@@ -1,65 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        header{
+            background-color: azure;
+            color: orange;
+        }
+      
+        .headerContent{
+            margin-right: 50px;
+
+        }
+        #socialinks{
+            margin-right: 30px;
+           
+        }
+
+        #followme{
+           margin-right: 30px;
+        }
+        footer ul li{
+            display: inline-block;
+        }
+        nav ul li{
+            display: inline-block;
+            text-transform: uppercase; 
+            width: 150px; 
+         
+        }
         a{
             text-decoration: none;
         }
-     nav  ul li{
-       width: 100px;
-       text-transform: uppercase;
-       text-decoration: none;
-    display: inline-block;
-    margin-left: 5px;
-    color:yellowgreen;
-      }
-      .header{
-        margin-right: 50px;
-        background-color: aquamarine;
+.copyright{
+    color: brown;
+    background-color: aqua;
 
-      }
+}
     </style>
-  </head>
-  <body> 
-    <header >
-          <i class="fa fa-user" aria-hidden="true"></i>
-          <span  class="header"> Kolekar Priyanka</span>
-         <i class="fa fa-phone-square" aria-hidden="true"> </i>
-         <span  class="header">9112476320</span>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <span  class="header"> kolekarpriyanka 12345@gmail.com </span>
-            </header>
-    <nav>
-        <ul>
-            <li><a href="home.html" target="priyanka">Home</a></li>
-            <li><a href="techstack.html" target="priyanka">Tech stack</li>
-            <li><a href="projectdetails.html" target="priyanka">Project</li>
-            <li><a href="education.html" target="priyanka">Education</a></li>
-            <li><a href="aboutMe.html" target="priyanka">About Me</a></li>
-        </ul>
-    </nav>
-      <br>
-      <iframe width="750px" height="350px"   src="home.html" name="priyanka" ></iframe>
+</head>
+<body>
+    <header>
+    <i class="fa fa-user" aria-hidden="true"></i> <strong class="headerContent">priyanka kolekar</strong> 
+    <i class="fa fa-phone-square" aria-hidden="true"></i><strong class="headerContent">9665 3429 20</strong>
+    <i class="fa fa-envelope" aria-hidden="true"></i><strong class="headerContent">nikitakolekar@gmail.com</strong>
+    <i class="fa fa-download" aria-hidden="true"></i><a href="assets/RaghupatiKhotCV.pdf" download target="_blank"><button>Download Resume</button></a>
+  
+    </header>
+  <br><br> 
+   <nav>
+    <ul>
+        <li><a  href="home.html" target="myFrame"> home </a> </li>
+        <li><a  href="techStack.html" target="myFrame"> tech stack</a></li>
+        <li><a href="project.html" target="myFrame"> project</a> </li>
+        <li><a  href="education.html" target="myFrame"> education</a></li>
+        <li><a  href="aboutMe.html" target="myFrame"> about me</a> </li>
+    </ul>
+</nav>
+    <iframe width="800px" height="300px" name="myFrame" src="home.html" frameborder="0">
+
+    </iframe>
     <footer>
-        <span>  
-        <nav>
-            <ul>
-                <li><stong>Follow me</strong></li>
-                <li> <i class="fa fa-github-alt" aria-hidden="true"></i></li>
-                <li>  <i class="fa fa-linkedin" aria-hidden="true"> </i></li>
-                <li> <i class="fa fa-twitter" aria-hidden="true">  </i> </li>
-                <li> <i class="fa fa-facebook-official" aria-hidden="true"></i></li>
-                <li></li>
-            </ul>
-        </nav>
-       </footer>
-      <p id="copyright"> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
-     </body>
-      </html>
+        <ul>
+            <li><span id="followme"><strong>Follow Me</strong></span></li>
+            <li>  <a href="https://github.com/Raghupati22/my-profile.git" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-github" aria-hidden="true"></i>
+            </a> </li>
+            <li>   <a href="https://www.linkedin.com/in/raghupati-khot-90146562/" target="_blank">
+            
+                <i id="socialinks" class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+            </a></li>
+            <li>  <a href="https://www.instagram.com/" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+            </a></li>
+            <li><a href="https://facebook.com/zoom" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
+            </a></li>
+        </ul>
+        <p class="Copyright"> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
+    </footer>
+   
+</body>
+</html>

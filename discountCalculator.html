@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount calculator</title>
+    <style>
+        .body{
+            background-color: antiquewhite;
+        }
+        .head h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+           
+            color:black;
+            text-transform: uppercase;
+        }
+        head{
+            background-color:greenyellow;
+            width:180px ;
+            color:green;
+        }
+        .content{
+            display: inline-block;
+            line-height: 10px;
+            color: goldenrod;
+            
+        }
+        p ,label{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:#4caf50;
+            font-weight: bold;
+        }
+        p{
+            font-size: 1rem;
+        }
+        .inp{
+            color: red;
+            background-color: palegoldenrod;
+        }
+        .bt1{
+            color:black;
+            background-color:#4caf50;
+            width: 180px;
+            
+        }
+       nav{
+        text-align: center;
+       }
+       .bill{
+        color: orange;
+       }
+    </style>
+</head>
+<body class="body">
+    <div class="head"> <h2>Discount Calculator</h2></div>
+    <div class="content">
+        <p class="bill"> Entre the bill amount and Discount in percentage</p><br><br>
+        <label>Bill Amount</label><br><br>
+       <input type="number" class="inp"><br><br>
+   
+       <label>Discount Percentage</label><br><br>
+       <input type="number" class="inp"  type="tel"
+       required="only numeric digit character not allowed"><br><br>
+       <button type="submit" class="bt1"  type="tel"
+       required="only numeric digit character not allowed"> Calculate</button><br><br>
+       <p>Total Discount Amount</p>
+</div>
+</body>
+</html>

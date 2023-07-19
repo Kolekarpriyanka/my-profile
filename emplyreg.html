@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <style>
+    h2{
+        font-family: 'Poppins', sans-serif;
+            color: red; 
+    }
+    body{
+        background-color:bisque;
+    }
+    label{
+            font-family: 'Poppins', sans-serif;
+            color: cadetblue;}
+            input[type="text"]
+            {
+            width: 200px;
+            border-radius: 10px;
+            padding: 7px;
+            color: cadetblue;
+            font-weight: bolder;
+            font-size: large;
+            text-transform: uppercase;  
+             font-family: 'Signika Negative', sans-serif;
+            }
+             #detailButton{
+            font-family: 'Poppins', sans-serif; 
+            border-radius: 10px;
+            color: #c20e2c;
+            background-color: aliceblue;
+             }
+            #detailbuttonp{
+              border-radius: 10px;
+              color: #c20e2c;
+              background-color: aquamarine;
+            }
+        
+        
+        #tools{
+            color:blue;
+            background-color:palegoldenrod;
+            font-family: 'Poppins', sans-serif;
+        }
+.des{
+    color: red;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#eadd{
+    border-radius: 50px;   
+}
+</style>
+</head>
+  <body>
+    <fieldset>
+      <legend><h2>Employee Application Form</h2></legend>
+      <table>
+        <tbody>
+          <form>
+            <tr>
+              <td>
+                <label for="fName"> Full Name </label>
+              </td>
+              <td>
+                <input
+                  id="fName"
+                  type="text"
+                  autofocus
+                  required
+                  maxlength="40"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label> Email Address</label></td>
+              <td><input type="email"  placeholder="Ex.abc@gmail.com"  id="eadd"/></td>
+            </tr>
+            <tr>
+              <td><label> Password </label></td>
+              <td>
+                <input type="password"  id="eadd" required="it should not visible" />
+              </td>
+            </tr>
+            <tr>
+              <td><label> Contact Number </label></td>
+              <td>
+                <input
+                id="eadd"
+                  type="tel"
+                  required="only numeric digit character not allowed"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label> Profile photo </label></td>
+              <td  > <input  type="file"  /></td>
+            </tr>
+            <tr>
+              <td><label> Date Of Birth </label></td>
+              <td><input type="date" id="eadd" /></td>
+            </tr>
+            <tr>
+              <td><label> Marital status</label></td>
+              <td>
+                <input type="radio"  id="eadd"name="married" /><label  id="tools">Yes</label>
+                <input type="radio"  id="eadd" name="Married" /><label  id="tools">No</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label> Gender </label></td>
+              <td>
+                <input type="radio" id="eadd" name="gender" /> <label  id="tools"> Male</label>
+                <input type="radio" id="eadd" name="gender" /> <label  id="tools"> Female </label>
+                <input type="radio" id="eadd" name="gender" /> <label  id="tools">  Other</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Known Tools & Technology</label></td>
+              <td>
+                <input  id="eadd"type="checkbox" /> <label id="tools"> Angular </label>
+                <input  id="eadd" type="checkbox" /> <label id="tools"> React </label>
+                <input  id="eadd" type="checkbox" /> <label id="tools"> Python</label>
+                <input  id="eadd"type="checkbox" /> <label id="tools"> Java </label>
+                <input  id="eadd"type="checkbox" /> <label id="tools"> Jenkin </label>
+                <input  id="eadd" type="checkbox" /> <label id="tools"> DevOps </label>
+                <input  id="eadd"type="checkbox" /> <label id="tools"> Database </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label> Designation </label>
+              </td>
+              <td>
+                <select id="detailbuttonp">
+                  <option value="UI Developer"  ><span></span   class="des"> UI Developer</option>
+                  <option value="Backend Developer" ><span class="des"> Backend Developer</span></option>
+                     <option value="Full Stack Developer" ><span  class="des">Full Stack Developer</span>  </option>
+                  <option value=" DevOps Engineer" > <span  class="des"> DevOps Engineer</span></option>
+                  <option value="Tester" ><span class="des"> Tester</span></option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td  >
+                <label> Country </label>
+              </td>
+              <td>
+                <select >
+                  <option value="Asia">Asia</option>
+                  <option value="urope">Urope</option>
+                  <option value="Americass">Americas</option>
+                  <option value="East">South africa</option>
+                  <option value="Bihar">Est Asia</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label> Present Address </label></td>
+              <td>
+                <textarea cols="50" rows="8"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><button   id="detailbuttonp" type="submit"><span  id="detailbutton"> Submit</span></button></td>
+              <td><button  id="detailbuttonp"type="Clear" ><span id="detailbutton"> Clear</span></button></td>
+            </tr>
+          </form>
+        </tbody>
+      </table>
+    </fieldset>
+  </body>
+</html>

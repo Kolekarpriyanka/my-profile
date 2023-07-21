@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Summary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <style>
+        .container{
+            border: 5px solid black;
+            width: 30%;
+            border-radius: 15px;
+        }
+       h1{
+        margin-left: 30px;
+        font-family: 'Poppins', sans-serif;
+       }
+       span{
+        color: rgb(65, 71, 229);
+       }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 15px;
+    }
+        .picture1{
+            width: 663px;
+            height: 400px;
+        }
+        li{
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .a1{
+            list-style-type: "💡"  ;
+        }
+        .a2{
+            list-style-type: "🪔" ;
+        }
+        .a3{
+            list-style-type: "💌" ;
+        }
+        .a4{
+            list-style-type: "💢" ;
+        }
+        .a5{
+            list-style-type: "♨️" ;
+        }
+        .a6{
+            list-style-type: "🏫" ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+                WHY SUMMER SCHOOL <br>
+                AT GREAT LAKES
+            </h1>
+            <ul>
+                <li class="a1"> <span> Gain business, team & leadership skills </span> and learn <br> 
+                    what it takes to succeed in the real world</li><br>
+                <li class="a2"><span>  Understand in depth </span> about complexities of society & <br>
+                    businesses in the digital age. </li><br>
+                <li class="a3"> <span> Learn structured decision making </span> through <br>
+                    case-based discussions.</li> <br>
+                <li class="a4">Get <span> hands-on experience </span> of the <span> real-world <br>
+                    scenarios </span> through simulations, gamified and <br>
+                    experiential learning.</li><br>
+                <li class="a5"> <span> Employ Desing thinking </span> & learn leveraging data for <br>
+                    better decision making.</li><br>
+                <li class="a6"> <span> Strengthen your profile </span> and CV with industry skills <br>
+                    gained along with great lakes certificate.</li><br>
+            </ul>
+        </div>
+
+        <div class="picture1">
+           <img src="assets.html/eliott-reyna-jCEpN62oWL4-unsplash.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+</html>
